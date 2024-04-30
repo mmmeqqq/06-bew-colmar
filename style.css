@@ -1,9 +1,26 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: rgb(70, 68, 68);
 }
-a{
-    color: rgb(9, 110, 233);
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+a {
+  color: rgb(9, 110, 233);
 }
 header {
   display: flex;
@@ -48,79 +65,70 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
- 
+}
+.info-left {
+  max-width: 60%;
+  padding: 32px 24px;
+  img {
+    width: 100%;
   }
-  .info-left {
-    max-width: 60%;
-    padding: 32px 24px;
-    img {
-      width: 100%;
-    }
-
 }
 .info-right {
-    padding-left: 24px;
-    padding-top: 16px;
+  padding-left: 24px;
+  padding-top: 16px;
 }
-.info-right-right , .exhibit-right-right {
-    padding-left: 16px;
+.info-right-right,
+.exhibit-right-right {
+  padding-left: 16px;
 }
-.campus,.guest, .design ,.now{
+.campus,
+.guest,
+.design,
+.now {
   display: flex;
   padding: 16px 16px;
   align-items: center;
 }
 .orientation {
-    display: flex;
-    padding: 32px 16px 16px 16px;
-    align-items: center;
-    
-  }
+  display: flex;
+  padding: 32px 16px 16px 16px;
+  align-items: center;
+}
 
 #practicing {
-    padding-top: 32px;
-    padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
 }
 span {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .start-learning {
   background-color: lightgray;
 }
 
-.container {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
 .head {
-    padding-left: 32px auto;
-    display: flex;
-    justify-content: center;
-
+  padding-left: 32px auto;
+  display: flex;
+  justify-content: center;
 }
 .thesis {
-    display: flex;
-
+  display: flex;
 }
+
 .exhibit-left {
-    max-width: 60%;
-    padding: 32px 24px;
-    video {
-      width: 100%;
-    }
+  max-width: 60%;
+  padding: 32px 24px;
+  video {
+    width: 100%;
+  }
 }
-
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   .footer-right {
     display: flex;
     p {
