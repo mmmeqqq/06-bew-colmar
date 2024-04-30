@@ -1,26 +1,109 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70, 68, 68);
+}
+a{
+    color: rgb(9, 110, 233);
+}
 header {
-    background-color: rgb(190, 139, 148);
+  display: flex;
+  justify-content: space-between;
 }
-
-
+.logo {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  list-style: none;
+}
+.right {
+  display: flex;
+  list-style: none;
+  li {
+    margin-right: 16px;
+  }
+}
 .learn {
-    background-color: rgb(151, 151, 151);
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  display: flex;
+  align-items: center;
 
+  .learn-left {
+    max-width: 60%;
+    padding: 32px 24px;
+    img {
+      width: 100%;
+    }
+  }
+  .learn-right {
+    .button {
+      background-color: rgb(85, 84, 84);
+      padding: 8px 100px;
+    }
+  }
 }
-
 
 .information {
-    background-color: bisque;
+  width: 100%;
+  display: flex;
+  align-items: center;
+ 
+  }
+  .info-left {
+    max-width: 60%;
+    padding: 32px 24px;
+    img {
+      width: 100%;
+    }
+
 }
+.info-right {
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.info-right-right{
+    padding-left: 16px;
+}
+.campus,.guest {
+  display: flex;
+  padding: 16px 16px;
+  align-items: center;
+}
+.orientation {
+    display: flex;
+    padding: 32px 16px 16px 16px;
+    align-items: center;
+    
+  }
 
-
+#practicing {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+span {
+    padding-bottom: 32px;
+}
 
 .start-learning {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
-
-
 .thesis {
-    background-color: rgb(209, 198, 182);
+  background-color: rgb(209, 198, 182);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .footer-right {
+    display: flex;
+    p {
+      padding-right: 6px;
+    }
+    p {
+      padding-right: 6px;
+    }
+  }
 }
